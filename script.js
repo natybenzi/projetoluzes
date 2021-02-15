@@ -26,6 +26,17 @@ function botao(){
         for(var i = 1; i <= 12; i++){            
             document.getElementById('jan' + i.toString()).style.background = off
         }
+    }         
+}
+
+window.onload = function(){
+    var data = new Date();
+    var hora = data.getHours();
+    if(hora >= 0 && hora < 12){       
+        document.body.style.background = '#e2cd9f';
+    }else if(hora  >=12 && hora < 18){
+        document.body.style.background = '#b9846f';
+    }else{
+        document.body.style.background = '#290d42';
     }
-    
 }
