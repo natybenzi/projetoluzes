@@ -1,0 +1,50 @@
+body{
+    background: #afafeb;
+}
+div{
+    padding-top: 30px;
+    margin: auto;
+    width: 300px;
+    height: 1076px;
+    background-color: gray;
+}
+div.impar{
+    border: 1px solid black;
+    width: 90px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 35px;
+    float: left;
+}
+div.par{
+    border: 1px solid black;
+    width: 90px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 35px;
+    float: right;
+}
+div#porta{
+    width: 90px;
+    height: 100px;
+    margin-top: 34px;
+    margin-left: 105px;
+    float: left;
+    background: brown;
+}
+div#botao{
+    border: 1px solid black;
+    background: white;
+    width: 50px;
+    height: 15px;
+    margin-top: 50px;
+    margin-right: 40px;
+    font: normal 10px Arial;
+    float: right;
+}
+footer{
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    background: green;
+}
